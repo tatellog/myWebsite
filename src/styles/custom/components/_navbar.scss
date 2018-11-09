@@ -1,0 +1,21 @@
+
+.container-header {
+    background-color: #f2f2f2;
+  }
+  
+  .nav-pills .nav-link.active {
+    background-color:#908686 !important; ;
+  }
+  
+  .menu-nav__header {
+    ul {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      display: flex;
+    }
+    li {
+      display: block;
+      padding: 10px 5px
+    }
+  }

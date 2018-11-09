@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 import NavigationPage from "./components/navigation/NavigationBar"
 
-import './style/_main.scss';
+import './styles/main.scss';
 
 class App extends Component {
   render() {

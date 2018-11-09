@@ -1,0 +1,36 @@
+@import './colors.scss';
+
+$container-bg-color: $color-gray-lightest;
+$container-border-radius: 2px;
+$container-gutter-size: 14px;
+$container-min-width: 320px;
+$container-max-width: 600px;
+
+// Spaces
+$space-xxxs: 4px;
+$space-xxs: 6px;
+$space-xs: 8px;
+$space-sm: 12px;
+$space-md: 16px;
+$space-lg: 20px;
+$space-xl: 24px;
+$space-xxl: 28px;
+$space-xxxl: 32px;
+
+// Fonts
+$font-family-primary: 'Rubik';
+
+// Headings
+$headings-color: $color-black;
+$headings-h1-font-size: 40px;
+$headings-h2-font-size: 28px;
+$headings-h3-font-size: 24px;
+$headings-h4-font-size: 16px;
+$headings-h4-line-height: 18px;
+$headings-h5-font-size: 14px;
+$headings-h6-font-size: 12px;
+$headings-line-color: $color-blue;
+$headings-line-width: 36px;
+
+// Icons
+$footer-icon-font-size: 36px;
