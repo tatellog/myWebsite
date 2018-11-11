@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Slider from './../components/generic/Slider'
 
 class HomePage extends Component {
     render() {
       return (
         <div>
-          <h1>HomePage</h1>
+          <Slider/>
         </div>
       );
     }
