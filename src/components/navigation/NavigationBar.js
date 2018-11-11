@@ -33,13 +33,13 @@ const NavigationBar = () => {
 	  ]
 	  
 	return (
-		<container>
+		<container className='container-nav'>
 			<div className='menu-nav__header'>
 				<ul>
-				<li><Link to = '/'>Home /</Link></li>
-				<li><Link to = '/about'>About /</Link></li>
-				<li><Link to = '/skills'>Skills /</Link></li>
-				<li><Link to = '/contact'>Contact /</Link></li>
+				<li><Link to = '/'>Home </Link></li>
+				<li>/ <Link to = '/about'>About </Link></li>
+				<li>/ <Link to = '/skills'>Skills </Link></li>
+				<li>/ <Link to = '/contact'>Contact </Link></li>
 				</ul>
 
 				{routes.map((route) => (
